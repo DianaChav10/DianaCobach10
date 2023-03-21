@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS+Arial+Verdana&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS, Arial, Verdana';
+}
+body{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+	font-family: 'Comic Sans MS, Arial Verdana';
+}
+nav{
+    max-width: 999px;
+    margin: auto;
+    background-color: #00FFFF;
+    font-size: 21px;
+    margin-top: 51px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 16px 21px;
+    color: black;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: #884EA0;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: #AB1185;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 16px 16px 16px 21px;
+}
+
+#html{
+    margin: auto;
+    padding: 30px;
+    max-width: 999px;
+    background: black;
+}.BSDH {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.D {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.JH {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.BJ {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.J887 {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.CUCALIANO {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.BOLAOCHO {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.DIANAINSANA {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.X {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
+.IJBHB {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+.CCJKV {
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+}
+.DXF {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+.BHBH {
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.xzs {
+    font-family: Comic Sans MS, Arial, Verdana;
+}
